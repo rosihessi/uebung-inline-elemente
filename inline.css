@@ -28,3 +28,31 @@ p{
 	margin: 0 auto;
 	width:  600px;
 }
+
+a{
+	display:block;
+	/* wenn ich a in display block setzte macht er sich breit wie Karton breit ist */
+	display:inline;
+	/* da mache das a wieder zu einem Inlineelemt, akzeptiert keine margin, weight oder Höhe, bleibt inline */
+	width:300px;
+	display:block;
+	background:yellow;
+	display: inline-block;
+	/* machen ein hybrid */
+}
+/* weitere inlineelemente */
+
+span{
+	color:red;
+}
+strong{
+	font-weight: normal;
+	/* schriftstärke wieder normal gesetzt bei strong */
+}
+#bild{
+	float: left;
+	padding: 0 20px 5px 0;
+
+	wir haben das Bild mit text rechts umfließen lassen und eine margin, damit der Text nicht am Bild klebt
+
+}
